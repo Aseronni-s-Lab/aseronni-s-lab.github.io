@@ -5,6 +5,7 @@ body {
   margin: 0 auto;
   max-width: 60rem;
   padding: 2rem;
+  text-align: center;
 }
 
 h1 {
@@ -26,6 +27,7 @@ nav {
   display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
+  justify-content: center;
 }
 
 nav a {

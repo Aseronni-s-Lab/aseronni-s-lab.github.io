@@ -5,7 +5,6 @@ body {
   margin: 0 auto;
   max-width: 60rem;
   padding: 2rem;
-  text-align: center;
 }
 
 h1 {
@@ -14,6 +13,15 @@ h1 {
   letter-spacing: 0.4em;
   text-transform: uppercase;
   margin: 0 0 1rem;
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #7d8a86;
+  margin: 3rem 0 1rem;
 }
 
 .status {
@@ -27,7 +35,6 @@ nav {
   display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
-  justify-content: center;
 }
 
 nav a {
@@ -40,4 +47,40 @@ nav a {
 
 nav a:hover {
   color: #3ddc97;
+}
+
+.project {
+  display: block;
+  border: 1px solid #25302d;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.project:hover {
+  border-color: #3ddc97;
+}
+
+.project-name {
+  display: block;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.project-tag {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #3ddc97;
+  margin: 0.4rem 0;
+}
+
+.project-desc {
+  display: block;
+  color: #7d8a86;
+  font-size: 0.85rem;
 }

@@ -84,3 +84,29 @@ nav a:hover {
   color: #7d8a86;
   font-size: 0.85rem;
 }
+
+.lead {
+  max-width: 40rem;
+  line-height: 1.7;
+  margin: 2rem 0;
+}
+
+.specs {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: 0.75rem 1rem;
+  border-top: 1px solid #25302d;
+  padding-top: 1.5rem;
+  margin: 2rem 0;
+}
+
+.specs dt {
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #7d8a86;
+}
+
+.specs dd {
+  margin: 0;
+}

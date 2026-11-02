@@ -20,3 +20,21 @@ h1 {
   text-transform: uppercase;
   color: #3ddc97;
 }
+
+nav {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  color: #7d8a86;
+  text-decoration: none;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #3ddc97;
+}
